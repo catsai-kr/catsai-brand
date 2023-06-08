@@ -1,0 +1,40 @@
+baseURL = 'https://catsai.kr'
+languageCode = 'ko-kr'
+title = '(주)캐츠아이 CATSAI'
+theme = "twentynineteen-hugo"
+
+[params]
+  accent_color = "#FF0000" # Set a custom accent color for links and image filters, if enabled. Defaults to blue.
+  description = "외식업으로 세상을 바꾸고자 설립된 소셜벤쳐이자 푸드테크 기업 입니다." # Adds tagline next to the site title.
+# privacy_link = "/privacy/"
+  disable_image_filters = false # Setting to true disables the color filter feature on images. Defaults to false.
+
+# Pagination
+paginate = 10
+
+# Output formats (for search index)
+[outputs]
+Home = ["HTML", "RSS", "JSON"]
+
+# Menus
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Posts"
+    url = "/post"
+    weight = 3   
+  [[menu.social]]
+    identifier = "github"
+    name = "Github-oyoriasia"
+    url = "https://github.com/oyoriasia/"
+  [[menu.footer]]
+    name = "About"
+    url = "/about/"
+    weight = 1
