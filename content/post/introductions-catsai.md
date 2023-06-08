@@ -1,7 +1,7 @@
 ---
 author: woonjjang
 title: 캐츠아이
-date: 2023-06-08
+date: 2023-05-18
 description: 캐츠아이
 tags:
   - foodtech

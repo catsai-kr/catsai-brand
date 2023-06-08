@@ -1,7 +1,7 @@
 ---
 author: woonjjang
 title: 캐츠아이는 요즈음
-date: 2023-06-09
+date: 2023-06-08
 description: 서비스 개발 영역을 소개합니다.
 tags:
   - foodtech
