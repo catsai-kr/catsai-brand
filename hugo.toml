@@ -19,21 +19,25 @@ Home = ["HTML", "RSS", "JSON"]
 # Menus
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "홈"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "About"
+    name = "소개"
     url = "/about/"
     weight = 2
   [[menu.main]]
-    name = "Posts"
+    name = "블로그"
     url = "/post"
-    weight = 3   
+    weight = 3
+  [[menu.main]]
+    name = "패들링 개인정보보호 안내"
+    url = "/paddling-privacy"
+    weight = 4
   [[menu.social]]
     identifier = "github"
-    name = "Github-oyoriasia"
-    url = "https://github.com/oyoriasia/"
+    name = "Github-catsai"
+    url = "https://github.com/catsai-kr"
   [[menu.footer]]
     name = "About"
     url = "/about/"
@@ -42,3 +46,11 @@ Home = ["HTML", "RSS", "JSON"]
     name = "Posts"
     url = "/post/"
     weight = 2
+  [[menu.footer]]
+    name = "블로그"
+    url = "/post"
+    weight = 3
+  [[menu.footer]]
+    name = "패들링 개인정보보호 안내"
+    url = "/paddling-privacy"
+    weight = 4         
